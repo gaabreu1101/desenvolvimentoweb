@@ -1,0 +1,109 @@
+<html>
+	<head>
+		<title>Minha primeira página web</title>
+	</head>
+	<body>
+		<h2>Isso é um cabeçalho</h2>
+		<p>Isso é um parágrafo</p>
+		<i>Texto em itálico</i>
+      	<br>
+		<br>
+      	<b>Texto em negrito</b>
+		<p id="italicparagraph">
+          paragrafo italico
+      </p>
+      <p id="boldparagraph">
+        paragrafo negrito
+      </p>
+      <input type="text" name="TextField"/>
+		<h2 title="atributo de titulo">
+          titulo com atributo
+      </h2>
+      <h2 align="center">
+        titulo centrado na pagina
+      </h2>
+     	 <h2 align="left">Título alinhado à esquerda</h2>
+		<h2 align="right">Título alinhado à direita</h2>
+		<p align="justify">O parágrafo é a base do texto editado. A tag para o parágrafo é &lt;p&gt;. Isso é um parágrafo justificado. parágrafo terão uma linha em cima e uma embaixo para evidenciar.</p>
+      <p align="right">O parágrafo é a base do texto editado. A tag para o parágrafo é &lt;p&gt;. Isso é um parágrafo justificado. parágrafo terão uma linha em cima e uma embaixo para evidenciar.</p>
+      <p align="left">O parágrafo é a base do texto editado. A tag para o parágrafo é &lt;p&gt;. Isso é um parágrafo justificado. parágrafo terão uma linha em cima e uma embaixo para evidenciar.</p>
+      <p align="center">O parágrafo é a base do texto editado. A tag para o parágrafo é &lt;p&gt;. Isso é um parágrafo justificado. parágrafo terão uma linha em cima e uma embaixo para evidenciar.</p>
+      <h1>
+        cabeçalho 1
+      </h1>
+      <h2>
+        cabeçalho 2
+      </h2>
+      <h3>
+        cabeçalho 3
+      </h3>
+      <h4>
+        cabeçalho 4
+      </h4>
+      <h5>
+        cbeçalho  5
+      </h5>
+      <h6>
+        cabeçalho 6
+      </h6>
+      <p>
+        isso<br/>
+        é<br/>
+        quebra<br/>
+        de linha<br>
+      </p>
+      <p>
+        agora vem as linhas horizontais
+        <hr/>
+      podemos usar várias juntas também
+      <hr/>
+      <hr/>
+      </p>
+	  <ol>
+	    <li>primeiro item</li>
+	    <li>segundo item</li>
+	  </ol>
+	  <ol start="4">
+	    <li>primeiro item</li>
+	    <li>segundo item</li>
+	  </ol>
+	  <ol type="A">
+	    <li>letras maiúsculas</li>
+	  </ol>
+	  <ol type="I">
+	    <li>letras romanas</li>
+	  </ol>
+	  <ol type="a">
+	    <li>letras minusculas</li>
+	  </ol>
+	  <ul>
+	    <li>primeiro item</li>
+	    <li>segundo item</li>
+	  </ul>
+	  <ul type="square">
+	    <li>primeiro item</li>
+	    <li>segundo item</li>
+	  </ul>
+	  <ul type="disc">
+	    <li>primeiro item</li>
+	    <li>segundo item</li>
+	  </ul>
+	  <ul type="circle">
+	    <li>primeiro item</li>
+	    <li>segundo item</li>
+	  </ul>
+	  <dl>
+	 <dt>Lista de definições</dt>
+	 <dd>Isso é uma definição.</dd>
+	<p>texto<b> negrito</b></p>
+	<p>texto <em>enfatizado</em></p>
+	<p>texto<strong> forte</strong></p>
+	<p>texto<i> italico</i></p>
+	<p>texto <sup> superior</sup></p>
+	<p>texto <sub> inferior</sub></p>
+	<p>texto <del>taxado</del></p>
+	<p>texto <code> código de computador</code></p>
+	      
+      
+	</body>
+</html>

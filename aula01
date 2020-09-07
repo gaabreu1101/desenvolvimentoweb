@@ -1,0 +1,73 @@
+<html>
+	<body>
+		<p><font size="4">Esse é uma fonte de tamanho 4</font></p>
+		<p><font size="5">Esse é uma fonte de tamanho 5</font></p>
+
+		<p>
+		 <font color="#990000">hexa #990000</font><br />
+		 <font color="red">vermelho</font>
+		</p>
+
+		<p><font face="Bookman Old Style, Book Antiqua, Garamond">formatação facefont</font><p>
+
+		<basefont size="2" color="green">
+		 <p>formatação basefont</p>
+		 </basefont>
+
+		<p><font size="7" face="Georgia, Arial" color="maroon"F</font>ormatação customizada.</p>
+
+		<a href="http://www.educatux.com.br" target="_blank" title="EducatuX">Teste de link de texto</a>
+
+		<a href="#top">Ir para cima</a>
+		<a href="#text">Aprender sobre links de texto</a>
+		<a href="#email">Aprender sobre endereços de e-mail</a>
+
+		<base href="http://www.educatux.com.br/">
+
+		<p>
+		 Less then- &lt; <br/>
+		 More then- &gt; <br />
+		 Head tag - &lt;head&gt;
+		</p>
+
+		<a href="mailto:someone@example.com?subject=Questions" title="">Teste de email</a>
+		<a href="mailto:someone@example.com?subject=Questions&body=Write here if you have questions"
+		title="" >email completo</a>
+
+		<form method="post" action="mailto:youremail@email.com">
+		 digite seu nome: <input type="text" size="10" maxlength="40" name="name" /><br />
+		 digite sua Senha: <input type="password" size="10" maxlength="10" name="password" />
+		</form>
+
+		<form method="post" action="mailto:youremail@email.com">.
+		 Nome: <input type="text" size="10" maxlength="40" name="name" /><br />
+		 Senha: <input type="password" size="10" maxlength="10" name="password" /><br />
+
+		 <input type="submit" value="Send" />
+		<img alt="html image example" src="/imgs/EducatuX.png" />
+
+		<form method="post" action="mailto:gabriel010101@gmail.com">
+ 		<p>teste de form</p>
+
+ 		<label>Color:</label> <br />
+		 <input type="radio" name="color" value="dark" /> Escuro <br />
+		 <input type="radio" name="color" value="light" /> Claro <br />
+
+		 <label>Size:</label> <br />
+		 <input type="radio" name="size" value="small" /> Pequeno <br />
+		 <input type="radio" name="size" value="average" /> Normal <br />
+		 <input type="radio" name="size" value="big" /> Grande <br />
+
+		 <input type="submit" value="Email Myself" />
+		</form>
+
+		<form method="post" action="mailto:gabriel010101@gmail.com">
+		 <p>teste de checkbox</p>
+		 <input type="checkbox" name="shoes" value="black" /> Preto <br/>
+		 <input type="checkbox" name="shoes" value="white" /> BRanco<br/>
+		 <input type="checkbox" name="shoes" value="gray" /> Cinza <br/>
+		 <input type="checkbox" name="shoes" value="black&white" /> Branco e Preto <br/>
+		 <input type="submit" value="Email Myself" />
+		</form>
+	</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang= "pt-br">
+<head>
+<title>js02_soma_com_conversão.htm</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+</head>
+
+<body>
+	<h3>Somatória de dois inteiros com conversão de dados</h3>
+
+	<form name="Formulario" action=" " method="post">
+		Entre com o valor 1: <input type="text" name="f_n1"><br>
+		Entre com o valor 2: <input type="text" name="f_n2"><br>
+		<input type="button" name="btn_somar" value="Somar" onclick="soma()">
+		<input type="reset" name="btn_apagar" value="Apagar">
+	</form>
+
+<script language="javascript">
+
+	var n1;
+	var n2;
+	var soma;
+
+	function soma(){
+
+		n1 = parseInt(document.Formulario.n1.value);
+		n2 = parseInt(document.Formulario.n2.value);
+
+		soma = n1+n2;
+
+		window.alert('O resultado da soma é: ', + soma.toString())
+	}
+
+</script>
+</body>
+</html>

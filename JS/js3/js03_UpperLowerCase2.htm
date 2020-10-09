@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>js05_UpperLowerCase2.htm - conversão de string</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <!-- Entrada de dados via formulário -->
+        <h3>Formulário de Consulta de Curso:</h3>
+        <p></p>
+        <form name="formcurso" action="" method="post">
+            Digite seu Curso: <input type="text" name="f_cursodig" size="8" maxlength="4" /> (sist) <p></p>
+            <input type="button" name="btn_validar" value="Validar" onclick="cadcurso()" />
+            <input type="reset" name="btn_cancelar" value="Cancelar" /> <p></p>
+            Código do Curso: <input type="text" name="f_codcurso" size="15" maxlength="10" />
+        </form>
+
+        <!-- Estrutura JavaScript com o método toLowerCase() -->
+        <script language="javascript">
+            /* Objetivo: Capturar o nome do curso e apresentar o código correspondente
+                Verificar:
+                Se js_cursodig for igual a sist, apresentar o código "sist001/FB".
+                    Caso contrário, apresentar a mensagem "Curso Inválido!"
+                Objetos e Métodos:
+                    Entrada: document.form
+                    Saída: document.form (para código válido no campo de saída do formulário)
+                    Saída: window.alert (para código inválido por janela de alerta)
+                Formulário: formcurso
+                Função: cadcurso
+                Evento: onclick
+                */ 
+
+                /* Definição das Variáveis */ 
+                var js_cursodig;
+
+                /* função cadcurso() */ 
+                function cadcurso() {
+                    js_cursodig=document.formcurso.f_cursodig.value;
+                    if (js_cursodig.toLowerCase() == 'sist') {
+                        document.formcurso.f_codcurso.value='sist001/FB';
+                    } // fechamento da estrutura if
+                    else{
+                        window.alert('Curso inválido!')
+                    } // Fechamento da estrutura else
+                } // Fechamento da function
+            
+        </script>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+  <head>
+    <meta charset="utf-8">
+    <title>Formulário</title>
+  </head>
+
+  <body>
+    <h1>Formulário</h1>
+    <fieldset>
+      <legend>Dados Pessoais</legend>
+      <form method="POST" autocomplete="on">
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" placeholder="Digite seu nome" required="" autofocus=""><p></p>
+      </form>
+
+      <form method="POST" autocomplete="on">
+        <label for="endereco">Endereço: </label>
+        <input type="text" name="endereco" placeholder="Digite seu endereço" required=""><p></p>
+      </form>
+
+      <form method="POST" autocomplete="on">
+        <label for="cidade">Cidade: </label>
+        <input type="text" name="cidade" placeholder="Digite sua cidade" required=""><p></p>
+      </form>
+
+      <form method="POST" autocomplete="on">
+        <label for="estado">Estado</label>
+        <select name="estado">
+          <option value="">Selecione seu estado</option>
+          <option value="ac">Acre</option>
+          <option value="ba">Bahia</option>
+          <option value="df">Distrito Federal</option>
+          <option value="go">Goiás</option>
+          <option value="mg">Minas Gerais</option>
+          <option value="rj">Rio de Janeiro</option>
+          <option value="rs">Rio Grande do Sul</option>
+          <option value="sc">Santa Catarina</option>
+          <option value="sp">São Paulo</option>
+          </select>
+      </form>
+    </fieldset>
+
+    <fieldset>
+      <legend>Dados Profissionais</legend>
+      <form method="POST" autocomplete="on">Natureza do cargo<br>
+        <input type="radio" name="cargo" value="gerencia"> Gerência
+        <input type="radio" name="cargo" value="financeiro"> Financeiro
+        <input type="radio" name="cargo" value="recepcao"> Recepção
+        <input type="radio" name="cargo" value="administrativo"> Administrativo
+        <input type="radio" name="cargo" value="juridico"> Jurídico
+      </form>
+      <form method="POST" autocomplete="on">Área de interesse<br>
+        <input type="checkbox" name="areaInteresse" value="1"> Computação
+        <input type="checkbox" name="areaInteresse" value="2"> Biologia
+        <input type="checkbox" name="areaInteresse" value="3"> Meio Ambiente
+        <input type="checkbox" name="areaInteresse" value="4"> Engenharia
+        <input type="checkbox" name="areaInteresse" value="5"> História
+      </form>
+      <form method="POST" autocomplete="off">Mini-currículo: 
+        <textarea cols="50" rows="5"></textarea>
+      </form>
+    </fieldset>
+      <form method="POST">
+        <button type="submit" name="enviar">Enviar</button>
+        <button type="reset" name="limpar">Limpar</button>
+      </form>
+  </body>
+
+</html>
